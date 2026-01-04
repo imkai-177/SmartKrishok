@@ -1,0 +1,53 @@
+User Story:
+
+As a new farmer, I want to easily register using my phone number so I can access all app features securely
+
+Screen Definition :
+
+Signup Screen:
+
+Name input (Bangla/English)
+
+Phone number input
+
+District/Upazila dropdown
+
+Farm size (optional)
+
+Profile photo upload (optional)
+
+Terms acceptance checkbox
+
+Submit button
+
+OTP Verification:
+
+6-digit OTP input
+
+Resend OTP option (60s timer)
+
+Auto-detect OTP from SMS
+
+Verify button
+
+Acceptance Criteria :
+
+Phone number validation should be for BD format (+880)
+
+OTP should be sent within 10 seconds
+
+OTP should be valid for 5 minutes
+
+Auto-fill OTP from SMS should work on Android
+
+Session should persist for 30 days
+
+Should support biometric login after first login
+
+Signup should complete in <2 minutes
+
+Terms & conditions should be in Bangla
+
+Should handle network errors gracefully
+
+First-time users should get onboarding tutorial
