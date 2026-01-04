@@ -1,0 +1,50 @@
+User Story:
+
+As a new farmer, I want to easily login using my phone number so I can access all app features securely
+
+Screen Definition :
+Login Screen:
+
+Phone number input field
+
+OTP request button
+
+'New User? Sign Up' link
+
+Terms & conditions checkbox
+
+OTP Verification:
+
+6-digit OTP input
+
+Resend OTP option (60s timer)
+
+Auto-detect OTP from SMS
+
+Verify button
+
+Password Recovery:
+
+Phone number input
+
+OTP-based reset
+
+New password setup
+
+Acceptance Criteria :
+
+Phone number validation should be for BD format (+880)
+
+OTP should be sent within 10 seconds
+
+OTP should be valid for 5 minutes
+
+Auto-fill OTP from SMS should work on Android
+
+Session should persist for 30 days
+
+Should support biometric login after first login
+
+Terms & conditions should be in Bangla
+
+Should handle network errors gracefully
